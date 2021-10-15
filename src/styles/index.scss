@@ -1,0 +1,26 @@
+@import './constans.scss';
+
+body {
+    font-size: 1rem;
+    background: linear-gradient(90deg, rgba(243, 215, 200, 1) 0%, rgba(242, 225, 216, 1) 50%, rgba(233, 212, 201, 1) 100%);
+    padding: 0 1rem;
+    overflow-y: scroll;
+}
+h1 {
+    font-size: 3rm;
+    text-align: center;
+    margin-bottom: 50px;
+}
+a, a:hover, a:active {
+    outline: none;
+    color: initial;
+    text-decoration: none;
+}
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+ul, li {
+    list-style: none;
+}

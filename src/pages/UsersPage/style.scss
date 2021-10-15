@@ -1,0 +1,14 @@
+.users-page {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  .sort-btn {
+    font-size: 24px;
+    color: white;
+
+    padding: 5px;
+    background-color: green;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,27 @@
+@import '../../styles/constans.scss';
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 3px solid $black;
+  &.active {
+    border: green 5px solid;
+  }
+  p {
+      margin: 10px 0;
+  }
+  .close {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    font-size: 26px;
+    font-weight: 600;
+    align-self: flex-end;
+    background-color: $red;
+  }
+}

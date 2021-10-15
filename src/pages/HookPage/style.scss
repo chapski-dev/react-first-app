@@ -1,0 +1,24 @@
+@import '../../styles/constans.scss';
+
+
+.add-btn, .remove-btn {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $white;
+    border-radius: 50px;
+    transition: 0.2s;
+    padding: 0.5rem 1.75rem;
+    margin: 0 3rem 3rem 0;
+}
+    .add-btn {
+        background-color: $yellow;
+        &:active {
+            color: $yellow;
+        }
+    }
+    .remove-btn {
+        background-color: $red;
+        &:active {
+            color: $red;
+        }
+    }

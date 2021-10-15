@@ -1,0 +1,17 @@
+@import '../../styles/constans.scss';
+
+.home-page {
+    .switcher {
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 50px;
+        color: $yellow;
+        background-color: $white;
+        transition: 0.2s linear;
+        padding: 1rem 2.5rem;
+        &:active {
+            color: $white;
+            background-color: $yellow;
+        }
+    }
+}
